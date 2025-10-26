@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Musixmatch - Calculadora de Instrumentais",
+  "version": "1.4",
+  "description": "Calcula automaticamente a duração das tags instrumentais, projetado para ser mais estável.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://curators.musixmatch.com/tool*",
+        "https://curators.musixmatch.com/tasks/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "48": "icon48.png"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
