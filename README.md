@@ -2,7 +2,7 @@
 
 A powerful Chrome extension that automatically calculates and displays instrumental tag durations for MusixMatch curators.
 
-![Demo](screenshots/demo.gif)
+<img width="932" height="377" alt="image" src="https://github.com/user-attachments/assets/5e4e99a4-1079-4efb-862a-a0cd793b6462" />
 
 ## 🚀 Features
 
